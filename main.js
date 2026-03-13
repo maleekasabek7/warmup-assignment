@@ -276,7 +276,7 @@ function getNetPay(driverID, actualHours, requiredHours, rateFile) {
     return base - hours * rate;
 }
 
-// -------------------- Export --------------------
+
 module.exports = {
     getShiftDuration,
     getIdleTime,
